@@ -1,0 +1,6 @@
+Usage :genetic_arithmetic [to_get] [start] [expr_length] [left] [right]
+
+to_get is the number that we're trying to evaluate to
+start is the input for the expressions
+expr_length is the length of our expression
+left and right are bounds of the interval which are we getting our random numbers from
