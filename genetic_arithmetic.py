@@ -77,7 +77,7 @@ def genetic_arithmetic(get,start,length,left,right):
 
 if __name__ == "__main__" :
     import sys
-    if ((len(sys.argv) <6) or (len(sys.argv) >6)) :
+    if ((len(sys.argv)!=6)) :
         print "Usage :genetic_arithmetic [to_get] [start] [expr_length] [left] [right]"
         print "to_get is the number that we're trying to evaluate to"
         print "start is the input for the expressions"
